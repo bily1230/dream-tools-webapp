@@ -3,7 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
-    <display-name>dream-servlet-webapp</display-name>
+    <display-name>dream-tools-webapp</display-name>
     <context-param>
         <param-name>defaultEncoding</param-name>
         <param-value>UTF-8</param-value>
@@ -32,7 +32,7 @@
         <url-pattern>/servletAction</url-pattern>
     </servlet-mapping>
 
-    //异常处理Servlet
+  <!-- 异常处理 -->
     <servlet>
         <servlet-name>errorAction</servlet-name>
         <servlet-class>com.dream.servlet.ErrorAction</servlet-class>
