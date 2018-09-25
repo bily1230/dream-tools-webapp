@@ -2,7 +2,7 @@ package com.dream.patterns.observer;
 
 import java.util.List;
 
-public class SearcherTest {
+public class TestMain {
 
 	public static void main(String[] args) {
 		
