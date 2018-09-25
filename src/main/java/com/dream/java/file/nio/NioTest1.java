@@ -1,4 +1,4 @@
-package com.dream.java;
+package com.dream.java.file.nio;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
