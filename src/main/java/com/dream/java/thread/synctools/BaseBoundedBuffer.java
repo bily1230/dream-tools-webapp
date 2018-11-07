@@ -8,6 +8,7 @@ public abstract class BaseBoundedBuffer<V> {
     private int tail;
     private int head;
     private int count;
+    private V v;
 
     protected BaseBoundedBuffer(int capacity) {
         this.buf = (V[]) new Object[capacity];
