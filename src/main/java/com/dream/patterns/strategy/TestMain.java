@@ -2,9 +2,6 @@ package com.dream.patterns.strategy;/**
  * Created by ning on 2018/4/1.
  */
 
-import javafx.application.Application;
-import javafx.stage.Stage;
-
 public class TestMain{
 
     public static void main(String[] args) {
